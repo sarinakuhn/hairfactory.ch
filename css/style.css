@@ -1,0 +1,292 @@
+/********** Style Basic **********/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-image: url(../images/body_bg.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: normal;
+	border-bottom: 1px #4D4D4D solid;
+	padding: 6px 0px;
+	margin-bottom: 20px;
+}
+
+div#content_slideshow h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+img {
+	border: 0;
+}
+
+/********** End Style Basic **********/
+
+/********** Style Wrapper Container **********/
+
+div#wrapper {
+	width: 980px;
+	margin: 10px auto;
+}
+
+img#logo {
+	margin-bottom: 10px;
+}
+
+div#container {
+	background-color: #000000;
+	padding: 10px;
+	min-height: 470px;
+	overflow: auto;
+}
+
+/********** End Style Wrapper Container **********/
+
+/********** Style Navigation **********/
+
+div#navi {
+	width: 250px;
+	float: left;
+	margin-right: 10px;	
+}
+
+div#navi ul {
+	list-style: none;
+}
+
+a:link.navi_blue, a:visited.navi_blue {
+	background-color: #013888;
+}
+
+a:active.navi_blue, a:hover.navi_blue, a:link.navi_blue_active, a:visited.navi_blue_active, a:active.navi_blue_active, a:hover.navi_blue_active {
+	background-color: #012152;
+}
+
+a:link.navi_gray, a:visited.navi_gray {
+	background-color: #555555;
+}
+
+a:active.navi_gray, a:hover.navi_gray, a:link.navi_gray_active, a:visited.navi_gray_active, a:active.navi_gray_active, a:hover.navi_gray_active {
+	background-color: #2D2D2D;
+}
+
+div#navi a:link.subnavi_gray, div#navi a:visited.subnavi_gray, div#navi a:active.subnavi_gray, div#navi a:hover.subnavi_gray, div#navi a:link.subnavi_gray_active, div#navi a:visited.subnavi_gray_active, div#navi a:active.subnavi_gray_active, div#navi a:hover.subnavi_gray_active {
+	font-size: 12px;
+	padding: 4px 10px;
+	text-align: right;
+}
+
+div#navi a:link.subnavi_gray, div#navi a:visited.subnavi_gray {
+	background-color: #8D8D8D;
+}
+
+div#navi a:active.subnavi_gray, div#navi a:hover.subnavi_gray, div#navi a:link.subnavi_gray_active, div#navi a:visited.subnavi_gray_active, div#navi a:active.subnavi_gray_active, div#navi a:hover.subnavi_gray_active {
+	background-color: #8D8D8D;
+	text-decoration: underline;
+}
+
+div#navi ul li a {
+	padding: 6px 10px;
+	display: block;
+	margin-bottom: 2px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+span.navi_h1_small{
+	font-size: 12px;
+}
+
+.subnavi {
+	display:none;
+}
+
+/********** End Style Navigation **********/
+
+/********** Style Content **********/
+
+div#content , div#content_slideshow {
+	width: 670px;
+	color: #000000;
+	font-size: 12px;
+	margin-left: 260px;
+	background-color: #FFFFFF;
+	padding: 15px;
+	min-height: 439px;
+	overflow: auto;
+}
+
+div#content_slideshow {
+	background-color: #000000;
+	padding: 0px;
+	width: 700px;
+}
+
+div#content p {
+	margin-bottom: 20px;
+}
+
+div#content img.mit_rahmen {
+	padding: 3px;
+	border: 1px #CCCCCC solid;
+}
+
+div#content ul {
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+div#content a:link, div#content a:visited, div#content a:active, div#content a:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#content a:active, div#content a:hover {
+	text-decoration: underline;
+}
+
+div.col1, div.col2 {
+	width: 335px;
+	float: left;
+	min-height: 80px;
+}
+
+.gallery_col1, .gallery_col2, .gallery_col3 {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: inline;
+}
+		
+.gallery_col1 {
+	margin-left: 0px;
+}
+
+.gallery_box {
+	float: left;
+	text-align: center;
+}
+
+img.news {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div#content hr {
+	background-color: #E8E8E8;
+	height: 1px;
+	margin: 30px 0px;
+	border: 0;
+	width: 670px;
+	clear: both;
+}
+
+/********** End Style Content **********/
+
+/********** Style Footer **********/
+
+div#footer {
+	margin-top: 3px;
+}
+
+div#footer p, div#footer p a:link, div#footer p a:visited, div#footer p a:active, div#footer p a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+div#footer p a:active, div#footer p a:hover {
+	text-decoration: underline;
+}
+
+div#footer p#copyright {
+	float: left
+}
+
+div#footer p#impressum {
+	float: right
+}
+
+/********** End Style Footer **********/
+
+/********** Style Formular **********/
+
+div.form_row {
+	margin-bottom: 15px;
+}
+
+label {
+	width: 150px;
+	display: block;
+	float: left;
+}
+
+input, textarea, select {
+	width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+input {
+	height: 15px;
+}
+
+select {
+	height: 19px;
+	width: 304px;
+}
+
+input#submit {
+	width: 100px;
+	height: 25px;
+}
+
+/********** End Style Formular **********/
+
+/********** Style Tabelle **********/
+
+.table_head {
+	background-color: #8D8D8D;
+/*	background-color: #D1D1D1; */
+	color: #FFFFFF;
+}
+
+.table_head td {
+	font-size: 12px;
+	padding: 4px 10px;
+}
+
+table#preisliste {
+	margin-bottom: 20px;
+}
+
+table#preisliste tr td {
+	padding: 4px 10px;
+}
+
+tr.even {
+	background-color: #EAEAEA;
+}
+
+/********** End Style Tabelle **********/
